@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>QC Uncertainty Automator</title>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="icon" href="http://s3.amazonaws.com/static.graphemica.com/glyphs/i500s/000/010/285/original/00B1-500x500.png?1275328305">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+	<h1><span class = "header">A website to ease uncertainties</span></h1>
+	<h4><span class ="info">Info</span>: A simple website made to take care of the tedious calculations needed to be done during labs.</h4>
+  <div class="container1">
+	<div class = "Addition">
+		<img src="https://i.imgur.com/HrjotH3.png" alt="Addition/Subtraction Uncertainty" title="Addition/Subtraction Uncertainty">
+	</div>
+	<div class="input1"> <!-- input 1 is just made specifically for the first addition/subtraction uncertainty -->
+	 <div class = "Addition-input-Dx">
+		 <img src="https://i.imgur.com/cRvrGk1.png" alt="Delta-x" class="Dx-add-img Dx-add">
+		 <div>
+			 <input type="number" class="Dx-add" name="Dx-add">
+		 </div>
+	 </div>
+	 <div class="Addition-input-Dy">
+		 <img src="https://i.imgur.com/hZx6ERM.png" alt="Delta-y" class="Dy-add-img Dy-add">
+		 <div>
+			 <input type="number" class="Dy-add" name="Dy-add">
+		 </div>
+	 </div>
+	 <input type="submit" value="Submit" class="button-addition">
+   </div> 
+  </div>
+   <!--End of addition/subtraciton uncertainty-->	
+
+   <div class="container2 container">
+   	  <div class="Multiplication-img">	
+   		<img src="https://i.imgur.com/Tclg6cz.png" alt="Multiplication Uncertainty" title="Multiplication Uncertainty" >
+	  </div>
+	  <div class="Multiplication-input input">
+	   <div class="Multiplication-input-1 children">
+	    	<img src="https://i.imgur.com/cRvrGk1.png" alt="Delta-x" class="Dx-img">
+	  	    <input type="number" class="Dx-mult" name="Dx-mult">
+	   </div>
+	   <div class="Multiplication-input-2 children">
+	    	<img src="https://i.imgur.com/hZx6ERM.png" alt="Delta-y" class="Dy-img">
+	    	<input type="number" class="Dy-mult" name="Dy-mult">
+	   </div>
+	   <div class="Multiplication-input-3 children">
+	    	<img src="https://i.imgur.com/qteppSV.png" alt="x" class="x-img">
+	    	<input type="number" class="x-mult" name="x-mult">
+	   </div>
+	   <div class="Multiplication-input-4 children">
+	    	<img src="https://i.imgur.com/kYw6Yzj.png" alt="y" class="y-img">
+	    	<input type="number" class="y-mult" name="y-mult">
+	   </div>
+	  </div> 
+	  <input type="submit" value="Submit" class="button button-mult">
+   </div>
+   <!--End of multiplication uncertainty-->
+
+   <div class="container3 container">
+   		<div class="Division-img">
+   			<img src="https://i.imgur.com/0Af6P86.png" alt="Division Uncertainty" title="Division Uncertainty">
+   		</div>
+   		<div class="Division-input input">
+   			<div class="Division-input-1 children">
+   				<img src="https://i.imgur.com/cRvrGk1.png" alt="Delta-x" class="Dx-img">
+	  	        <input type="number" class="Dx-div" name="Dx-div">
+   			</div>
+   			<div class="Division-input-2 children">
+   				<img src="https://i.imgur.com/hZx6ERM.png" alt="Delta-y" class="Dy-img">
+	    		<input type="number" class="Dy-div" name="Dy-div">
+   			</div>
+   			<div class="Division-input-3 children">
+   				<img src="https://i.imgur.com/qteppSV.png" alt="x" class="x-img">
+	    		<input type="number" class="x-div" name="x-div">
+   			</div>
+   			<div class="Division-input-4 children">
+   				<img src="https://i.imgur.com/kYw6Yzj.png" alt="y" class="y-img">
+	    		<input type="number" class="y-div" name="y-div">
+   			</div>
+   		</div>
+   		<input type="submit" value="Submit" class="button button-div">
+   </div>
+   <!--End of Division uncertainty-->
+
+   <div class="container4 container">
+   		<div class="Power-img">
+   			<img src="https://i.imgur.com/GF3QxAw.png" alt="Power Uncertainty" title="Power Uncertainty">
+   		</div>
+   		<div class="Power-input input">
+   			<div class="Power-input-1 children">
+   				<img src="https://i.imgur.com/cRvrGk1.png" alt="Delta-x" class="Dx-img">
+   				<input type="number" class="Dx-pow" name="Dx-pow">
+   			</div>
+   			<div class="Power-input-2 children">
+   				<img src="https://i.imgur.com/qteppSV.png" alt="x" class="x-img"">
+   				<input type="number" class="x-pow" name="x-pow">
+   			</div>
+   			<div class="Power-input-3 children">
+   				<img src="https://i.imgur.com/ua0avWc.png" alt="n" class="n-img">
+   				<input type="number" class="n-pow" name="n-pow">
+   			</div>
+   			<input type="submit" value="Submit" class="button button-pow">
+   		</div>
+   	
+   </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <script src="app.js"></script>
+</body>
+</html>
