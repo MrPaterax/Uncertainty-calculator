@@ -124,6 +124,11 @@ input[type=submit]:hover {
 .Multiplication-img{
 	width: auto;
 	height: auto;
+	image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+   -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 	display: inline-block;
 	margin-right: 25px;
 }
@@ -138,6 +143,11 @@ input[type=submit]:hover {
 	height: auto;
 	display: inline-block;
 	margin-right: 25px;
+	image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 }
 .Division-input-1, .Division-input-2, .Division-input-3, .Division-input-4{
 	display: inline-flex;
@@ -150,6 +160,11 @@ input[type=submit]:hover {
 	height: auto;
 	display: inline-block;
 	margin-right: 25px;
+	image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 }
 .Power-input-1,.Power-input-2,.Power-input-3{
 	display: inline-flex;
