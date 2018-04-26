@@ -44,10 +44,12 @@ input[type=submit] {
     width: 100px;
     height: 37px;
     box-shadow: 0px 3px 0px 0px #5c9683;
+    -webkit-box-shadow: 0px 3px 0px 0px #5c9683;
     border-radius: 4px;
     border: none;
     transition: background-color 1s;
     outline: none;
+    -webkit-appearance: none;
     position: relative;
 }
 input[type=submit]:hover {
@@ -88,8 +90,10 @@ input[type=submit]:hover {
 	text-decoration: underline;
 }
 .Dx-img, .Dy-img, .y-img , .x-img, .n-img{
-	width: 40px;
-	height: 30px;
+	height: auto; 
+    width: auto; 
+    max-width: 40px; 
+    max-height: 30px;
 }
 .button {
 	top: -17px;
@@ -102,6 +106,8 @@ input[type=submit]:hover {
 	margin-left: 15%;
 	margin-bottom: 3%;
 	display: inline-block;
+	width: auto;
+	height: auto;
 }
 .button-addition {
 	top: -17px;
@@ -116,8 +122,8 @@ input[type=submit]:hover {
 	left: 25px;
 }
 .Multiplication-img{
-	width: 630px;
-	height: 70px;
+	width: auto;
+	height: auto;
 	display: inline-block;
 	margin-right: 25px;
 }
@@ -128,8 +134,8 @@ input[type=submit]:hover {
 	top: -30px;
 }
 .Division-img{
-	width: 630px;
-	height: 70px;
+	width: auto;
+	height: auto;
 	display: inline-block;
 	margin-right: 25px;
 }
@@ -140,8 +146,8 @@ input[type=submit]:hover {
 	top: -30px;
 }
 .Power-img{
-	width: 630px;
-	height: 70px;
+	width: auto;
+	height: auto;
 	display: inline-block;
 	margin-right: 25px;
 }
@@ -174,7 +180,7 @@ input[type=submit]:hover {
 		margin-top: 30px;
 	}
 	.button-addition {
-		margin-left: 28%;
+		margin-left: 25%;
 		margin-top: 25px;
 	}
 	.Answer, .Answer1{
