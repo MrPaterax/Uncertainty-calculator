@@ -2,9 +2,9 @@ function additionUncertainty() {
 	  $(".button-addition").next(".Answer1").remove();
 	  var Dx = $("input[name=Dx-add]").val();
 	  var Dy = $("input[name=Dy-add]").val();
-      var sum = Math.sqrt((Dx * Dx) + (Dy * Dy));
-      if(sum == 0) return 0;
-      $(".button-addition").after('<p class = "Answer1"> Answer: ' + sum.toFixed(4) + '</p>');
+    	  var sum = Math.sqrt((Dx * Dx) + (Dy * Dy));
+    	  if(sum == 0) return 0;
+     	  $(".button-addition").after('<p class = "Answer1"> Answer: ' + sum.toFixed(4) + '</p>');
 }	
 
 $("input[name=Dx-add], input[name=Dy-add]").keyup(function(event) {
